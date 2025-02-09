@@ -11,7 +11,7 @@ const app = express();
 
 // ✅ Use correct CORS settings
 app.use(cors({
-    origin: "https://frontend-inotebook.vercel.app",  // Allow frontend
+    origin: "https://frontend-i-note-book.vercel.app",  // Allow frontend
     credentials: true,  // Allow cookies & headers
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],  // Allow methods
     allowedHeaders: ["Content-Type", "auth-token"]  // Allow these headers
